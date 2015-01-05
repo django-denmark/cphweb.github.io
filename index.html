@@ -2,40 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CPHWEB</title>
-    <link rel="stylesheet" href="/main.css">
+    <title>CPHWeb - the Web developer community in Copenhagen</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>CPHWEB</h1>
-    <p>Your single point of entry to the Copenhagen Web developer community.</p>
 
-    <h2>Sign up for our mailing list!</h2>
+    <header>
+        <section>
+            <h1>CPHWeb</h1>
+            <p>Your single point of entry to the Web developer community in Copenhagen.</p>
 
-    <form action="//cphweb.us9.list-manage.com/subscribe/post?u=fe7bdb07e7c76b8c09e13833f&amp;id=745f3ba62f" method="post">
-        <label for="email">Email Address</label>
-        <input type="email" name="EMAIL" id="email" required placeholder="mail@example.com">
-        <input type="submit" value="Subscribe" name="subscribe">
-    </form>
+            <section class="newsletter">
+                <h2>The CPHWeb newsletter</h2>
+                <form action="//cphweb.us9.list-manage.com/subscribe/post?u=fe7bdb07e7c76b8c09e13833f&amp;id=745f3ba62f" method="post">
+                    <input type="email" name="EMAIL" id="email" required placeholder="mail@example.com">
+                    <input type="submit" value="Signup" name="subscribe">
+                </form>
+            </section>
 
-    <h2>Web meetups in Copenhagen</h2>
+        </section>
+    </header>
 
-    <ul>
-        <li><a href="http://copenhagenjs.dk">CopenhagenJS</a> - Javascript, Frontend Operations, NodeJS</li>
-        <li><a href="http://upfront.ninja/">UpFront</a> - HTML, CSS</li>
-        <li><a href="https://www.facebook.com/groups/282096585192552/">Brewww</a> - Beers and networking</li>
-        <li><a href="http://www.meetup.com/Copenhagen-Node-js-Hackathon/">Copenhagen Node.js Hackathon</a> - Streaming hackyness</li>
-        <li><a href="http://www.meetup.com/The-Copenhagen-Django-Meetup-Group/">Copenhagen Django Meetup Group</a></li>
+    <section class="content">
         
-    </ul>
+        <h2>Web meetups in Copenhagen</h2>
 
-    <h2>Web conferences in Copenhagen</h2>
+        <ul class="meetups list">
+            <li>
+                <img src="images/cphjs.png" />
+                <a href="http://copenhagenjs.dk">CopenhagenJS</a> - Javascript, Frontend Operations, NodeJS
+            </li>
+            <li><a href="http://upfront.ninja/">UpFront</a> - HTML, CSS</li>
+            <li><a href="https://www.facebook.com/groups/282096585192552/">Brewww</a> - Beers and networking</li>
+            <li><a href="http://www.meetup.com/Copenhagen-Node-js-Hackathon/">Copenhagen Node.js Hackathon</a> - Streaming hackyness</li>
+            <li><a href="http://www.meetup.com/The-Copenhagen-Django-Meetup-Group/">Copenhagen Django Meetup Group</a></li>
+            
+        </ul>
 
-    <ul>
-        <li><a href="http://coldfrontconf.com/">ColdFront</a></li>
-        <li><a href="http://atthefrontend.dk/">At the Frontend</a></li>
-    </ul>
+        <h2>Web conferences in Copenhagen</h2>
 
-    <iframe src="https://www.google.com/calendar/embed?title=CPHWEB&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=auchenberg.dk_uki9j805f344ntqkkpr7g1rec0%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FCopenhagen" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <ul class="list">
+            <li><a href="http://coldfrontconf.com/">ColdFront</a></li>
+            <li><a href="http://atthefrontend.dk/">At the Frontend</a></li>
+        </ul>
+
+        <h2>Calendar</h2>
+        <iframe src="https://www.google.com/calendar/embed?title=CPHWEB&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=auchenberg.dk_uki9j805f344ntqkkpr7g1rec0%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=Europe%2FCopenhagen" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+        <h2>Get in touch</h2>
+        <p>Are you organizing a meetup or event related to web in Copenhagen? Let us know at</p> <a href="mailto:hello@cphweb.org">hello@cphweb.org</a>!
+    </section>
 
 </body>
 </html>
